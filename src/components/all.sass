@@ -220,6 +220,32 @@ img
   z-index: 2;
   box-shadow: -2px 7px 8px -1px rgba(138,138,138,0.62);
 
+.service-section
+  display: flex;
+  padding: 80px 40px;
+
+.service-section div  
+  width: 50vw  
+
+
+.service-section:nth-of-type(2n)
+  background: $light-grey;
+  flex-direction: row-reverse;
+  text-align: right
+
+.services
+  display: flex;
+  flex-wrap: wrap;
+
+.services .list-service
+  flex: 1;
+  min-width: 25%;
+  height: 100%;
+  margin: 16px;
+
+.services .list-service .section
+  min-height: 300px;
+  max-height: 300px;
 
 
 // responsiveness

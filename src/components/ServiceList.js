@@ -4,10 +4,10 @@ import PreviewCompatibleImage from './PreviewCompatibleImage';
 
 const ServiceList = ({ data: { allMarkdownRemark: { edges } } }) => {
 	return (
-		<div className="columns has-text-left">
+		<div className="services  has-text-left">
 			{edges &&
 				edges.map(({ node: service }) => (
-					<article key={service.id} className="column is-4">
+					<article key={service.id} className="list-service is-4">
 						<Link to={service.fields.slug}>
 							<PreviewCompatibleImage
 								imageInfo={{
@@ -15,10 +15,10 @@ const ServiceList = ({ data: { allMarkdownRemark: { edges } } }) => {
 									alt: `featured image thumbnail for post ${service.frontmatter.title}`
 								}}
 							/>
-							<div className="brand-green u-p-4">
-								<h3>{service.frontmatter.title}</h3>
-								{service.excerpt}
-							</div>
+							<section className="section brand-green has-text-white">
+								<h3 className="has-text-weight-bold is-size-5">{service.frontmatter.title}</h3>
+								<p>{service.excerpt}</p>
+							</section>
 						</Link>
 					</article>
 				))}

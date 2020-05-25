@@ -36,6 +36,7 @@ export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch
 					<p className="is-light-heading is-uppercase is-size-5">Locked out?</p>
 					<h3 className="is-size-2 has-text-weight-bold">24 hour Locksmith service</h3>
 					<p>Available throughout the Leeds and Bradford.</p>
+					<Link to="/services/24-hour-locksmith/">Find out more</Link>
 				</div>
 				<div>
 					<a href="mailto:07912 294 111" className="button is-large is-danger">

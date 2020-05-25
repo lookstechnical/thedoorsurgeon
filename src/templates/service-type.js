@@ -1,24 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { kebabCase } from 'lodash';
 import { Helmet } from 'react-helmet';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
-import Content, { HTMLContent } from '../components/Content';
+import { HTMLContent } from '../components/Content';
+import Section from '../components/Section';
 
-export const ServiceTypeTemplate = ({ title, helmet, ...rest }) => {
-	console.log(rest);
+export const ServiceTypeTemplate = ({ title, description, sections, helmet }) => {
 	return (
-		<section className="section">
-			{helmet || ''}
-			<div className="container content">
-				<div className="columns">
-					<div className="column is-10 is-offset-1">
-						<h1 className="title is-size-2 has-text-weight-bold is-bold-light">{title}</h1>
+		<div>
+			<section className="section">
+				{helmet || ''}
+				<div className="container content has-text-centered">
+					<div className="columns">
+						<div className="column is-10 is-offset-1">
+							<h1 className="title is-size-2 has-text-weight-bold is-bold-light">{title}</h1>
+							<HTMLContent content={description} />
+						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+			</section>
+			<Section sections={sections} />
+		</div>
 	);
 };
 
@@ -47,6 +50,7 @@ const ServiceType = ({ data }) => {
 				}
 				tags={post.frontmatter.tags}
 				title={post.frontmatter.title}
+				sections={post.frontmatter.sections}
 			/>
 		</Layout>
 	);
@@ -68,6 +72,13 @@ export const pageQuery = graphql`
 			frontmatter {
 				title
 				category
+				description
+				sections {
+					section {
+						description
+						heading
+					}
+				}
 			}
 		}
 	}
