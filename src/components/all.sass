@@ -5,13 +5,36 @@
 $kaldi-red: #D64000
 $kaldi-red-invert: #fff
 
+$light-grey: #eff0f2;
+$brand-green: #899384;
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 
+.navbar
+  background: $light-grey;
+  padding: 10px 0px 10px 0px;
+
+.navbar .container
+  display: flex;
+  justify-content: space-between;
+
 .navbar .navbar-menu
   box-shadow:none !important
+  flex-grow: 0;
+
+.navbar .navbar-menu a
+  border: 1px solid transparent;
+  color: #4f5d75;
+  padding: 8px 18px;
+  margin-right: 10px;
+
+.navbar .navbar-menu a:hover
+  border: 1px solid rgba(79,93,117,0.2);
+  color: #2d3142
+
+
 
 .content .taglist
   list-style: none
@@ -82,7 +105,6 @@ $black: #2b2523
   padding: 0 1rem
 footer.footer
   padding: 3rem 0rem 0rem
-  background-color: transparent
 
 //Menu overrides
 $menu-item-color: $white-ter
@@ -138,3 +160,14 @@ $menu-label-color: $white-ter
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+
+
+.brand-green  
+  background: $brand-green;
+
+.section
+  height: 300px;
+  background: white;
+
+.section.dark
+  background: $light-grey
