@@ -38,6 +38,8 @@ collections:
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Category", name: "category", widget: "list"}
+      - {label: Section, name: sections, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text},{label: "Image", name: "image", widget: image}]}
+          
   - name: "testimonal"
     label: "Testimonial"
     folder: "src/pages/testimonial"
@@ -46,8 +48,8 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "testimonial"}
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Category", name: "category", widget: "list"}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Image", name: "image", widget: image}
+      - {label: "Source", name: "source", widget: list}
 
   - name: "pages"
     label: "Pages"
