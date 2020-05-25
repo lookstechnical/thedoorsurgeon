@@ -14,10 +14,15 @@ export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch
 				backgroundImage: `url(${door})`,
 				backgroundPosition: 'center center',
 				backgroundSize: 'cover',
-				padding: '280px 0px 280px 0px',
+				padding: '180px 0px 180px 0px',
 				transition: 'background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;'
 			}}
-		/>
+		>
+			<div className="has-text-white" style={{ padding: '50px' }}>
+				<h1 className="is-size-1 has-text-weight-bold">Door and window specialists</h1>
+				<h2 className="is-size-3 has-text-weight-bold">Leeds and Bradford</h2>
+			</div>
+		</section>
 		<section className="section  has-text-centered">
 			<header className="mb-l">
 				<p className="is-light-heading is-uppercase is-size-5">Commerical or Residential</p>
