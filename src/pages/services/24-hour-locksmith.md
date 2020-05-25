@@ -1,7 +1,7 @@
 ---
 templateKey: service-type
 title: 24 Hour Locksmith
-featuredservice: true
+featuredservice: false
 featuredimage: /img/black-and-grey-keys-792034.jpg
 category:
   - locksmith
