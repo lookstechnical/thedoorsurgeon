@@ -26,9 +26,9 @@ collections:
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
-  - name: "service"
-    label: "Service"
-    folder: "src/pages/service"
+  - name: "services"
+    label: "Services"
+    folder: "src/pages/services"
     create: true
     slug: "{{slug}}"
     fields: 

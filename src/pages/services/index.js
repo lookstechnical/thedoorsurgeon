@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
+import ServiceList from '../../components/ServiceList';
 
 export default class ServiceIndexPage extends React.Component {
 	render() {
@@ -11,7 +12,9 @@ export default class ServiceIndexPage extends React.Component {
 				</header>
 				<section className="section">
 					<div className="container">
-						<div className="content">list of services</div>
+						<div className="content">
+							<ServiceList />
+						</div>
 					</div>
 				</section>
 			</Layout>
