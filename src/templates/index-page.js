@@ -18,14 +18,27 @@ export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch
 				transition: 'background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;'
 			}}
 		/>
-		<section className="section has-text-centered">
+		<section className="section n has-text-centered">
 			<header className="mb-l">
 				<p className="is-light-heading is-uppercase is-size-5">Commerical or Residential</p>
 				<h2 className="is-size-2 has-text-weight-bold">What services do we provide?</h2>
 			</header>
 			<FeaturedServices />
 		</section>
-		<section className="section dark areas">info here</section>
+		<section className="section dark areas">
+			<section className="section locksmith columns">
+				<div>
+					<p className="is-light-heading is-uppercase is-size-5">Locked out?</p>
+					<h3 className="is-size-2 has-text-weight-bold">24 hour Locksmith service</h3>
+					<p>Available throughout the Leeds and Bradford.</p>
+				</div>
+				<div>
+					<a href="mailto:07912 294 111" className="button is-large is-primary">
+						Emergancy Call Now: 07912 294 111
+					</a>
+				</div>
+			</section>
+		</section>
 		<section className="section">testimonials here</section>
 		<section className="section dark">contact form here</section>
 	</div>

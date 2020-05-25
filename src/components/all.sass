@@ -164,20 +164,6 @@ $menu-label-color: $white-ter
 
 @import "~bulma"
 
-
-// responsiveness
-+tablet-only
-  .blog-list-item .featured-thumbnail
-    flex-basis: 50%;
-
-+mobile
-  .blog-list-item header
-    display: block
-  .blog-list-item .featured-thumbnail
-    text-align: center;
-    max-width: 70%;
-    margin: 0 0 1em;
-
 .featured-home 
   position: relative;
   margin-top: 0px;
@@ -218,3 +204,28 @@ img
   padding: 0;
   line-height: normal;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+.locksmith 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+// responsiveness
++tablet-only
+  .blog-list-item .featured-thumbnail
+    flex-basis: 50%;
+  
+  
+
++mobile
+  .blog-list-item header
+    display: block
+  .blog-list-item .featured-thumbnail
+    text-align: center;
+    max-width: 70%;
+    margin: 0 0 1em;
+  .featured-home
+    flex-direction: column;
+  .featured-service
+    margin-bottom: 16px;
+
