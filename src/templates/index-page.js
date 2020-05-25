@@ -3,16 +3,28 @@ import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
-import Features from '../components/Features';
-import BlogRoll from '../components/BlogRoll';
 import door from '../img/door.jpg';
+import FeaturedServices from '../components/FeaturedServices';
 
 export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch, description, intro }) => (
 	<div>
-		<section className="">
-			<img src={door} />
+		<section
+			className="section"
+			style={{
+				backgroundImage: `url(${door})`,
+				backgroundPosition: 'center center',
+				backgroundSize: 'cover',
+				padding: '280px 0px 280px 0px',
+				transition: 'background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;'
+			}}
+		/>
+		<section className="section has-text-centered">
+			<header className="mb-l">
+				<p className="is-light-heading is-uppercase is-size-5">Commerical or Residential</p>
+				<h2 className="is-size-2 has-text-weight-bold">What services do we provide?</h2>
+			</header>
+			<FeaturedServices />
 		</section>
-		<section className="section">info here</section>
 		<section className="section dark">info here</section>
 		<section className="section">testimonials here</section>
 		<section className="section dark">contact form here</section>
@@ -64,13 +76,6 @@ export const pageQuery = graphql`
 		markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
 			frontmatter {
 				title
-				image {
-					childImageSharp {
-						fluid(maxWidth: 2048, quality: 100) {
-							...GatsbyImageSharpFluid
-						}
-					}
-				}
 				heading
 				subheading
 				mainpitch {
@@ -78,20 +83,6 @@ export const pageQuery = graphql`
 					description
 				}
 				description
-				intro {
-					blurbs {
-						image {
-							childImageSharp {
-								fluid(maxWidth: 240, quality: 64) {
-									...GatsbyImageSharpFluid
-								}
-							}
-						}
-						text
-					}
-					heading
-					description
-				}
 			}
 		}
 	}

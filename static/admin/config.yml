@@ -30,7 +30,7 @@ collections:
     label: "Service"
     folder: "src/pages/service"
     create: true
-    slug: "services/{{slug}}"
+    slug: "{{slug}}"
     fields: 
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "service-type"}
       - {label: "Title", name: "title", widget: "string"}

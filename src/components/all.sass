@@ -5,12 +5,22 @@
 $kaldi-red: #D64000
 $kaldi-red-invert: #fff
 
+
 $light-grey: #eff0f2;
 $brand-green: #899384;
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
+
+.mb-l
+  margin: 0px 0px 40px 0px;
+
+.is-light-heading
+  color: #777;
+  line-height: 1.2em;
+  letter-spacing: 4px;
+  font-size: 18px;
 
 .navbar
   background: $light-grey;
@@ -34,7 +44,14 @@ $black: #2b2523
   border: 1px solid rgba(79,93,117,0.2);
   color: #2d3142
 
+.contact-header 
+  width: 100%;
+  padding: 8px 0px;
 
+.contact-header .container
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 
 .content .taglist
   list-style: none
@@ -104,7 +121,7 @@ $black: #2b2523
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
 footer.footer
-  padding: 3rem 0rem 0rem
+  padding: 1rem 0rem 0rem
 
 //Menu overrides
 $menu-item-color: $white-ter
@@ -166,8 +183,29 @@ $menu-label-color: $white-ter
   background: $brand-green;
 
 .section
-  height: 300px;
+  min-height: 300px;
   background: white;
 
 .section.dark
   background: $light-grey
+
+.navbar-item img
+  max-height: auto;
+
+img    
+  max-height: auto;
+
+
+.footer .menu-list
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+
+.footer li
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);

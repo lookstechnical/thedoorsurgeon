@@ -6,7 +6,8 @@ import { graphql, Link } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
 
-export const ServiceTypeTemplate = ({ title, helmet }) => {
+export const ServiceTypeTemplate = ({ title, helmet, ...rest }) => {
+	console.log(rest);
 	return (
 		<section className="section">
 			{helmet || ''}
@@ -34,12 +35,12 @@ const ServiceType = ({ data }) => {
 
 	return (
 		<Layout>
-			<BlogPostTemplate
+			<ServiceTypeTemplate
 				content={post.html}
 				contentComponent={HTMLContent}
 				description={post.frontmatter.description}
 				helmet={
-					<Helmet titleTemplate="%s | Blog">
+					<Helmet titleTemplate="%s | Service">
 						<title>{`${post.frontmatter.title}`}</title>
 						<meta name="description" content={`${post.frontmatter.description}`} />
 					</Helmet>
@@ -66,7 +67,6 @@ export const pageQuery = graphql`
 			html
 			frontmatter {
 				title
-				body
 				category
 			}
 		}

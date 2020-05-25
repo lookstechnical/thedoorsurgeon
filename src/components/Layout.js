@@ -28,8 +28,12 @@ const TemplateWrapper = ({ children }) => {
 				<meta property="og:image" content={`${withPrefix('/')}img/og-image.jpg`} />
 			</Helmet>
 			<Navbar />
-			<div className="brand-green">
-				<div className="container has-text-white is-pulled-right">0773747477484</div>
+			<div className="brand-green contact-header">
+				<div className="container has-text-white">
+					<div>
+						Emergancy: <span className="has-text-weight-bold">07912 294 111</span>
+					</div>
+				</div>
 			</div>
 			<div>{children}</div>
 			<Footer />

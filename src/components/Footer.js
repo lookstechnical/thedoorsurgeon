@@ -14,28 +14,27 @@ const Footer = class extends React.Component {
 				<div className="content brand-green has-text-centered">
 					<div className="container  has-text-white-ter">
 						<div style={{ maxWidth: '100vw' }} className="columns">
-							<div className="column is-4">
+							<div className="column is-8">
 								<section className="menu">
 									<ul className="menu-list">
 										<li>
-											<Link to="/" className="navbar-item">
+											<Link to="/" className="footer-link">
 												Home
 											</Link>
 										</li>
 										<li>
-											<Link className="navbar-item" to="/about">
+											<Link className="footer-link" to="/about">
 												About
 											</Link>
 										</li>
 										<li>
-											<Link className="navbar-item" to="/products">
+											<Link className="footer-link" to="/products">
 												Products
 											</Link>
 										</li>
 									</ul>
 								</section>
 							</div>
-							<div className="column is-4" />
 							<div className="column is-4 social">
 								<a title="facebook" href="https://www.facebook.com/The-door-surgeon-364962176914907/">
 									<img src={facebook} alt="Facebook" style={{ width: '1em', height: '1em' }} />
