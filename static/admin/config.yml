@@ -32,6 +32,7 @@ collections:
     create: true
     slug: "services/{{slug}}"
     fields: 
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "service-type"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Featured Service", name: "featuredservice", widget: "boolean"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
@@ -42,6 +43,7 @@ collections:
     folder: "src/pages/testimonial"
     create: true
     fields: 
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "testimonial"}
       - {label: "Name", name: "name", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Category", name: "category", widget: "list"}
