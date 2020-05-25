@@ -31,7 +31,7 @@ const TemplateWrapper = ({ children }) => {
 			<div className="brand-green contact-header">
 				<div className="container has-text-white">
 					<div>
-						Emergancy: <span className="has-text-weight-bold">07912 294 111</span>
+						Emergency: <span className="has-text-weight-bold">07912 294 111</span>
 					</div>
 				</div>
 			</div>
