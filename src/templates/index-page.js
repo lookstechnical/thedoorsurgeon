@@ -18,7 +18,7 @@ export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch
 				transition: 'background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;'
 			}}
 		/>
-		<section className="section n has-text-centered">
+		<section className="section  has-text-centered">
 			<header className="mb-l">
 				<p className="is-light-heading is-uppercase is-size-5">Commerical or Residential</p>
 				<h2 className="is-size-2 has-text-weight-bold">What services do we provide?</h2>
@@ -33,14 +33,23 @@ export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch
 					<p>Available throughout the Leeds and Bradford.</p>
 				</div>
 				<div>
-					<a href="mailto:07912 294 111" className="button is-large is-primary">
-						Emergancy Call Now: 07912 294 111
+					<a href="mailto:07912 294 111" className="button is-large is-danger">
+						Emergency Call Now: 07912 294 111
 					</a>
 				</div>
 			</section>
 		</section>
-		<section className="section">testimonials here</section>
-		<section className="section dark">contact form here</section>
+		<section className="section has-text-centered">
+			<div>
+				<p className="is-light-heading is-uppercase is-size-5">Testimonials</p>
+				<h3 className="is-size-2 has-text-weight-bold">View our customers feedback</h3>
+			</div>
+		</section>
+		<section className="section dark">
+			<div>
+				<h3 className="is-size-2 has-text-weight-bold">Get in touch</h3>
+			</div>
+		</section>
 	</div>
 );
 

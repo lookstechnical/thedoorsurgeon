@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import './all.sass';
 import useSiteMetadata from './SiteMetadata';
 import { withPrefix } from 'gatsby';
+import StickyHeader from './Stickyheader';
 
 const TemplateWrapper = ({ children }) => {
 	const { title, description } = useSiteMetadata();
@@ -28,13 +29,7 @@ const TemplateWrapper = ({ children }) => {
 				<meta property="og:image" content={`${withPrefix('/')}img/og-image.jpg`} />
 			</Helmet>
 			<Navbar />
-			<div className="brand-green contact-header">
-				<div className="container has-text-white">
-					<div>
-						Emergency: <span className="has-text-weight-bold">07912 294 111</span>
-					</div>
-				</div>
-			</div>
+			<StickyHeader />
 			<div>{children}</div>
 			<Footer />
 		</div>

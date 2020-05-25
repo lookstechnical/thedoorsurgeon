@@ -210,6 +210,18 @@ img
   justify-content: space-between;
   align-items: center;
 
+.footer-link:hover 
+  background: none;
+
+.contact-header 
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  box-shadow: -2px 7px 8px -1px rgba(138,138,138,0.62);
+
+
+
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
@@ -228,8 +240,20 @@ img
     flex-direction: column;
   .featured-service
     margin-bottom: 16px;
+  .locksmith
+    flex-direction: column;
+  .locksmith div
+    margin-bottom: 16px;
+  .footer .menu-list
+    align-items: center;
+    justify-content: center;
+
 
 
 
 .navbar-item img
   max-height: 3rem;
+
+h3
+  line-height: 2rem;
+  margin-bottom: 16px;
