@@ -29,7 +29,7 @@ const ServiceList = ({ data: { allMarkdownRemark: { edges } } }) => {
 export default () => (
 	<StaticQuery
 		query={graphql`
-			query FeaturedServicesQuery {
+			query ListServicesQuery {
 				allMarkdownRemark(filter: { frontmatter: { templateKey: { eq: "service-type" } } }) {
 					edges {
 						node {

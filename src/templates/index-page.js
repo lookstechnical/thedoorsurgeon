@@ -25,7 +25,7 @@ export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch
 			</header>
 			<FeaturedServices />
 		</section>
-		<section className="section dark">info here</section>
+		<section className="section dark areas">info here</section>
 		<section className="section">testimonials here</section>
 		<section className="section dark">contact form here</section>
 	</div>
