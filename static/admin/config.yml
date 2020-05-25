@@ -38,14 +38,14 @@ collections:
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Category", name: "category", widget: "list"}
-      - {label: Sections, name: sections, widget: list, fields: [
-          {label: Sections, name: section, widget: object, fields:[
+      - {label: Sections, name: sections, widget: list, fields: 
+          { label: Sections, name: sections, widget: object, fields: [
               {label: Heading, name: heading, widget: string}, 
               {label: Description, name: description, widget: text},
               {label: "Image", name: "image", widget: image}
             ]
           }
-        ]}
+        }
           
   - name: "testimonal"
     label: "Testimonial"
