@@ -7,7 +7,7 @@ const FeaturesServices = ({ data: { allMarkdownRemark: { edges } } }) => {
 		<div className="columns has-text-left">
 			{edges &&
 				edges.map(({ node: service }) => (
-					<article key={service.id} className="column is-6">
+					<article key={service.id} className="column is-4">
 						<Link to={service.fields.slug}>
 							<PreviewCompatibleImage
 								imageInfo={{
