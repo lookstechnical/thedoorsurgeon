@@ -1,7 +1,20 @@
 ---
-templateKey: 'about-page'
+templateKey: about-page
 path: /about
 title: About our values
+sections:
+  - section:
+      heading: About us
+      description: >-
+        Here at the Door Surgeon we pride ourselves on offering an honest and
+        reliable service. Providing door repairs, double glazed door repairs,
+        window repairs, door and window installations, security upgrades and 24
+        locksmith service in leeds, bradford, wakefield and throughout West
+        Yorkshire area.
+
+
+        Because we are a small family run business we can keep our overheads low and pass the savings on to you. If you have been told that your windows or doors are beyond repair, get in touch. We can repair when other firms can not.
+      image: /img/3e7df6b3-0fbb-4e05-b498-068334b3f6b2.jpg
 ---
 ### Shade-grown coffee
 Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
