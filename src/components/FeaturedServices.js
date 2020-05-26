@@ -1,27 +1,41 @@
 import React from 'react';
 import { graphql, StaticQuery, Link } from 'gatsby';
 import PreviewCompatibleImage from './PreviewCompatibleImage';
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
+
+const FeaturedService = ({ service }) => {
+	const [ ref, inView ] = useInView({ triggerOnce: true, threshold: 0.5 });
+
+	return (
+		<motion.article
+			ref={ref}
+			key={service.id}
+			className="featured-service is-4"
+			initial={{ opacity: 0 }}
+			animate={{ opacity: inView ? 1 : 0 }}
+			transition={{ duration: 2 }}
+		>
+			<Link to={service.fields.slug}>
+				<PreviewCompatibleImage
+					imageInfo={{
+						image: service.frontmatter.featuredimage,
+						alt: `featured image thumbnail for post ${service.frontmatter.title}`
+					}}
+				/>
+				<section className="section brand-green has-text-white">
+					<h3 className="has-text-weight-bold is-size-5">{service.frontmatter.title}</h3>
+					<p>{service.excerpt}</p>
+				</section>
+			</Link>
+		</motion.article>
+	);
+};
 
 const FeaturesServices = ({ data: { allMarkdownRemark: { edges } } }) => {
 	return (
 		<div className="featured-home  has-text-left">
-			{edges &&
-				edges.map(({ node: service }) => (
-					<article key={service.id} className="featured-service is-4">
-						<Link to={service.fields.slug}>
-							<PreviewCompatibleImage
-								imageInfo={{
-									image: service.frontmatter.featuredimage,
-									alt: `featured image thumbnail for post ${service.frontmatter.title}`
-								}}
-							/>
-							<section className="section brand-green has-text-white">
-								<h3 className="has-text-weight-bold is-size-5">{service.frontmatter.title}</h3>
-								<p>{service.excerpt}</p>
-							</section>
-						</Link>
-					</article>
-				))}
+			{edges && edges.map(({ node: service }) => <FeaturedService service={service} />)}
 		</div>
 	);
 };

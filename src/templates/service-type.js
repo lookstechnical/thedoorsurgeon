@@ -9,7 +9,7 @@ import Section from '../components/Section';
 export const ServiceTypeTemplate = ({ title, description, sections, helmet }) => {
 	return (
 		<div>
-			<section className="section">
+			<section className="section brand-green">
 				{helmet || ''}
 				<div className="container content has-text-centered">
 					<div className="columns">
@@ -77,6 +77,13 @@ export const pageQuery = graphql`
 					section {
 						description
 						heading
+						image {
+							childImageSharp {
+								fluid(maxWidth: 420, quality: 100) {
+									...GatsbyImageSharpFluid
+								}
+							}
+						}
 					}
 				}
 			}

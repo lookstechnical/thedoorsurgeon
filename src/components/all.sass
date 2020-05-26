@@ -169,10 +169,14 @@ $menu-label-color: $white-ter
   margin-top: 0px;
   margin-bottom: -220px;
   display: flex;
+  height: 100%;
+
 
 .featured-service
+  flex: 1 1;
   margin: 0px 16px;
   height: 100%;
+  min-width: 25%;
 
 .areas 
   padding-top: 220px;
@@ -222,11 +226,15 @@ img
 
 .service-section
   display: flex;
-  padding: 80px 40px;
+  align-items: center;
+  padding: 0px 40px;
 
-.service-section div  
-  width: 50vw  
+.service-section article  
+  width: 50vw;
+  padding: 80px 32px;  
 
+.service-section picture  
+  width: 50vw;
 
 .service-section:nth-of-type(2n)
   background: $light-grey;
