@@ -3,11 +3,10 @@ import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import Content, { HTMLContent } from '../components/Content';
+import Sections from '../components/Section';
 
 export const AboutPageTemplate = ({ sections, contentComponent }) => {
-	const PageContent = contentComponent || Content;
-
-	return <Section sections={sections} />;
+	return <Sections sections={sections} />;
 };
 
 AboutPageTemplate.propTypes = {
