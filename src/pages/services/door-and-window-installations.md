@@ -37,7 +37,7 @@ sections:
         locking mechanisms in all are UPVC doors.Are doors also come with Yale
         anti snap cylinders as standard.
       heading: Door Security
-      image: /img/black-and-grey-keys-792034.jpg
+      image: /img/yale-lok.png
   - section:
       description: The three hook Lockmaster Incorporating a centre hook dead-bolt
         delivering elevated levels of anti-separation security performance.The
