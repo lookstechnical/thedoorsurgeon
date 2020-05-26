@@ -47,7 +47,7 @@ sections:
       description: Install sash jammers to doors and windows to prevent thieves from
         forcing your doors and windows open. i.e with a crow bar.
       heading: Sash jammers
-      image: /img/black-and-grey-keys-792034.jpg
+      image: /img/sash-jammer-400.jpg
   - section:
       description: We can secure your glass by upgrading your units from double to
         triple glazing and your door panels reinforced panels.
