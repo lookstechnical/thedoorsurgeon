@@ -2,7 +2,7 @@
 templateKey: service-type
 title: 24 Hour Locksmith
 featuredservice: false
-featuredimage: /img/lock-replacement.jpg
+featuredimage: /img/istockphoto-813694826-612x612.jpg
 category:
   - locksmith
 sections:
@@ -26,7 +26,7 @@ sections:
 
 
         The door surgeon can easily replace most multi point lock at only a fraction of the cost of a new door.
-      image: /img/black-and-grey-keys-792034.jpg
+      image: /img/lock-replacement.jpg
 ---
 Locked out? The door surgeon provide a 24hr Locksmith service throughout the Leeds / Bradford area.
 
