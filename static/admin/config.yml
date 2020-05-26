@@ -93,4 +93,4 @@ collections:
                 fields:
                   - {label: Heading, name: heading, widget: string }
                   - {label: Description, name: description, widget: markdown}
-                  - {label: "Image", name: "image", widget: image
+                  - {label: "Image", name: "image", widget: image }
