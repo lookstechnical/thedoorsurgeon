@@ -84,7 +84,6 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - label: "Sections"
-          - label: "Sections"
             name: "sections"
             widget: "list"
             fields:
