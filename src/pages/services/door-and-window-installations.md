@@ -20,7 +20,7 @@ sections:
         window will not only look fantastic but will all so stay that way for
         years to come.
       heading: Why Do we install Rustique from WHS Halo?
-      image: /img/black-and-grey-keys-792034.jpg
+      image: /img/halo-rustique-3-banner-02-904x490.jpg
   - section:
       description: At the door surgeon we believe in using the best security thats why
         we use the elite twin cam espag (locking mechanism) in are Rustique
@@ -44,6 +44,6 @@ sections:
         Lockmaster features 3 hook 4 roller which gives the highest level of
         security and is pass 24 accredited and meets secured by design.
       heading: "3 Hook Lockmaster "
-      image: /img/black-and-grey-keys-792034.jpg
+      image: /img/a4817475d854df1aefd2dbdc710f92d148fd0764.png
 ---
 The door surgeon pride ourselves on our fitting skills and we believe that there is no point having the best highly skilled fitters if you don't use the best products that's why we use A rated Halo Rusique profile windows and doors.Unlike a lot of larger window companies we will only fit the windows you want and will not try and sell you windows for your whole home.
