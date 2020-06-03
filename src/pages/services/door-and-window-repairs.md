@@ -1,6 +1,6 @@
 ---
 templateKey: service-type
-title: Door and window repairs
+title: Door Repairs
 featuredservice: true
 featuredimage: /img/black-and-grey-keys-792034.jpg
 category:
