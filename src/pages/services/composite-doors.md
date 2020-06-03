@@ -17,7 +17,7 @@ sections:
         home. We have 14 years experience in the industry and have built up a
         good reputation.
       heading: Replacement window handles
-      image: /img/black-and-grey-keys-792034.jpg
+      image: /img/replacement-window-handles.jpg
   - section:
       description: Our doors are available in 14 different styles, 14 different door
         colours, and 8 different frame colours. With all the colour options and
