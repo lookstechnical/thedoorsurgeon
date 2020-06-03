@@ -31,7 +31,7 @@ sections:
         * Restrictors
 
         * Sash jammers.
-      heading: Window Repairs
+      heading: Replacement door locking mechanism
       image: /img/black-and-grey-keys-792034.jpg
   - section:
       description: |-
@@ -44,8 +44,8 @@ sections:
         * Door panels
         * Euro cylinders
         * Multi-point locking mechanisms
-      heading: " Door Repairs"
-      image: /img/black-and-grey-keys-792034.jpg
+      heading: New Door handles
+      image: /img/new-door-handles.jpg
   - section:
       description: >-
         We can replace all multi point locks including WINK HAUS, GU, AVOCET,
@@ -56,8 +56,8 @@ sections:
 
 
         If other locksmiths have said the lock is discontinued then give us a call we specialise in finding locks and materials that others can not.
-      heading: Lock Reapirs
-      image: /img/black-and-grey-keys-792034.jpg
+      heading: Improve door security
+      image: /img/improve-door-security.jpg
   - section:
       description: >-
         The door surgeon can professionally remove scratches and cigarette
@@ -68,15 +68,15 @@ sections:
 
 
         *Call now for a free quote*
-      heading: Frame Repairs
+      heading: Replacement door hinges
       image: /img/black-and-grey-keys-792034.jpg
   - section:
       description: If your patio door has become stiff or hard to lock and slide we
         can replace the wheels or the lock, if your door bumps or jumps as it
         rolls the track probably needs replacing. We can replace the track the
         door runs on to give your door a smooth action.
-      heading: Patio door repairs
-      image: /img/black-and-grey-keys-792034.jpg
+      heading: replacement door panels
+      image: /img/replacement-door-panels.jpg
   - section:
       description: >-
         We provide a 24 hour glass replacement service.\
@@ -88,7 +88,7 @@ sections:
 
 
         If there is no fault with your units, but you just want to add a bit of class to your home we can replace your unit with leaded and coloured glass, you can even design the glass yourself.
-      heading: Glass replacement
+      heading: Patio and Bi Fold door repairs
       image: /img/black-and-grey-keys-792034.jpg
 ---
 We can provide a wide range of window and door repairs in Bradford / Leeds and througout West Yorkshire. All repairs are done to the highest quality using only the best products/materials available.
