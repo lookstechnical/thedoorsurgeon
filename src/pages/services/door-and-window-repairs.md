@@ -1,8 +1,8 @@
 ---
 templateKey: service-type
-title: Door Repairs
+title: Door Repair Services
 featuredservice: true
-featuredimage: /img/black-and-grey-keys-792034.jpg
+featuredimage: /img/adobestock_243176712.jpeg
 category:
   - repairs
 sections:
