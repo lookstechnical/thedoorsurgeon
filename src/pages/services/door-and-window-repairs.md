@@ -69,7 +69,7 @@ sections:
 
         *Call now for a free quote*
       heading: Replacement door hinges
-      image: /img/black-and-grey-keys-792034.jpg
+      image: /img/hinge.jpg
   - section:
       description: If your patio door has become stiff or hard to lock and slide we
         can replace the wheels or the lock, if your door bumps or jumps as it
@@ -89,7 +89,7 @@ sections:
 
         If there is no fault with your units, but you just want to add a bit of class to your home we can replace your unit with leaded and coloured glass, you can even design the glass yourself.
       heading: Patio and Bi Fold door repairs
-      image: /img/black-and-grey-keys-792034.jpg
+      image: /img/windows-and-doors.jpg
 ---
 We can provide a wide range of window and door repairs in Bradford / Leeds and througout West Yorkshire. All repairs are done to the highest quality using only the best products/materials available.
 
