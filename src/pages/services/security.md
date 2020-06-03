@@ -2,6 +2,7 @@
 templateKey: service-type
 title: Security
 featuredservice: true
+order: 6
 featuredimage: /img/black-and-grey-keys-792034.jpg
 category:
   - security

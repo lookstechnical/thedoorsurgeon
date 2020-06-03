@@ -2,6 +2,7 @@
 templateKey: service-type
 title: 24 Hour Locksmith
 featuredservice: false
+order: 1
 featuredimage: /img/istockphoto-813694826-612x612.jpg
 category:
   - locksmith

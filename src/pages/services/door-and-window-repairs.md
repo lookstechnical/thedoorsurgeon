@@ -2,6 +2,7 @@
 templateKey: service-type
 title: Door Repair Services
 featuredservice: true
+order: 5
 featuredimage: /img/door-repair-sevices.jpg
 category:
   - repairs

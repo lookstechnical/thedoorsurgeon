@@ -32,6 +32,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields: 
+      - {label: "Order", name: "order", widget: "number"}
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "service-type"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Featured Service", name: "featuredservice", widget: "boolean"}

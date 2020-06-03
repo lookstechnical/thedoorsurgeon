@@ -2,6 +2,7 @@
 templateKey: service-type
 title: Double glazing unit replacement
 featuredservice: false
+order: 4
 featuredimage: /img/black-and-grey-keys-792034.jpg
 category:
   - s

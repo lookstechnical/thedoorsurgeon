@@ -2,6 +2,7 @@
 templateKey: service-type
 title: Door and window installations
 featuredservice: true
+order: 2
 featuredimage: /img/black-and-grey-keys-792034.jpg
 category:
   - Installation

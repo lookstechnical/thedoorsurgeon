@@ -1,7 +1,8 @@
 ---
 templateKey: service-type
-title: Window Reapirs
+title: Window Repairs
 featuredservice: true
+order: 3
 featuredimage: /img/steamed-up-units.jpg
 category:
   - s
