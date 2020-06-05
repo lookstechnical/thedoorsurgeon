@@ -50,8 +50,8 @@ $black: #2b2523
 
 .contact-header .container
   display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
+  padding: 0px 10px;
+  justify-content: space-between;
 
 .content .taglist
   list-style: none
@@ -180,7 +180,41 @@ $menu-label-color: $white-ter
   flex: 1 1;
   margin: 0px 16px;
   height: 100%;
-  min-width: 25%;
+  min-width: calc(25% - 32px);
+  overflow: hidden;
+  
+  .picture
+    overflow: hidden;
+    height: 200px;
+    width: 100%;  
+    
+
+  h3 
+    line-height: 1.5rem;
+
+  section 
+    height: 250px;
+    color: white;
+
+.featured-service:hover
+  box-shadow: -2px 7px 8px -1px rgba(138,138,138,0.62);
+
+  section 
+    background: white;
+    color: $black;
+  section.has-text-white
+    color: $black;
+
+  .featured-service-image
+    transform: scale(1.2);
+
+
+.featured-service-image
+  height: 200px;
+  transition: all .5s;
+
+
+
 
 .areas 
   padding-top: 220px;
@@ -254,18 +288,36 @@ img
 
 .services .list-service
   flex: 1;
-  min-width: 25%;
+  min-width: calc(25% - 32px);
+  max-width: calc(25% - 32px);
   height: 100%;
   margin: 16px;
+
+  .picture
+    overflow: hidden;
+    height: 200px;
+    width: 100%;  
+
+  h3 
+    line-height: 1.5rem;
+
+  section 
+    height: 250px;
+    color: white;
 
 .services .list-service .section
   min-height: 300px;
   max-height: 300px;
 
-.list-service a:hover 
-  .section
+.list-service:hover 
+  box-shadow: -2px 7px 8px -1px rgba(138,138,138,0.62);
+  section 
     background: white;
     color: $black;
+  section.has-text-white
+    color: $black;
+  .featured-service-image
+    transform: scale(1.2);
 
 // responsiveness
 +tablet-only

@@ -20,10 +20,13 @@ const StickyHeader = () => {
 	}, []);
 
 	return (
-		<div className={`has-background-grey-dark	 contact-header ${isSticky ? ' sticky' : ''}`} ref={ref}>
+		<div className={`has-background-grey-dark contact-header ${isSticky ? ' sticky' : ''}`} ref={ref}>
 			<div className="container has-text-white">
 				<div>
-					Emergency: <span className="has-text-weight-bold has-text-white">07912 294 111</span>
+					Locked out ?
+				</div>
+				<div>
+					call now <span className="has-text-weight-bold has-text-white">07912 294 111</span>
 				</div>
 			</div>
 		</div>

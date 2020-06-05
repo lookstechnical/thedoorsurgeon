@@ -3,6 +3,7 @@ import { graphql, StaticQuery, Link } from 'gatsby';
 import PreviewCompatibleImage from './PreviewCompatibleImage';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import BackgroundImage from 'gatsby-background-image'
 
 const FeaturedService = ({ service }) => {
 	const [ ref, inView ] = useInView({ triggerOnce: true, threshold: 0.5 });
@@ -17,13 +18,14 @@ const FeaturedService = ({ service }) => {
 			transition={{ duration: 2 }}
 		>
 			<Link to={service.fields.slug}>
-				<PreviewCompatibleImage
-					imageInfo={{
-						image: service.frontmatter.featuredimage,
-						alt: `featured image thumbnail for post ${service.frontmatter.title}`
-					}}
-				/>
-				<section className="section brand-green has-text-white">
+				<div className="picture">
+					<BackgroundImage
+						className="featured-service-image"
+						fluid={service.frontmatter.featuredimage.childImageSharp.fluid}
+						backgroundColor={`#040e18`}
+					/>
+				</div>
+				<section className="section brand-green">
 					<h3 className="has-text-weight-bold is-size-5">{service.frontmatter.title}</h3>
 					<p>{service.excerpt}</p>
 				</section>
@@ -50,7 +52,7 @@ export default () => (
 					edges {
 						node {
 							id
-							excerpt(pruneLength: 200)
+							excerpt(pruneLength: 150)
 							fields {
 								slug
 							}

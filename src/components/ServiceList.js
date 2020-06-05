@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql, StaticQuery, Link } from 'gatsby';
-import PreviewCompatibleImage from './PreviewCompatibleImage';
+import BackgroundImage from 'gatsby-background-image'
 
 const ServiceList = ({ data: { allMarkdownRemark: { edges } } }) => {
 	return (
@@ -9,13 +9,14 @@ const ServiceList = ({ data: { allMarkdownRemark: { edges } } }) => {
 				edges.map(({ node: service }) => (
 					<article key={service.id} className="list-service is-4">
 						<Link to={service.fields.slug}>
-							<PreviewCompatibleImage
-								imageInfo={{
-									image: service.frontmatter.featuredimage,
-									alt: `featured image thumbnail for post ${service.frontmatter.title}`
-								}}
+						<div className="picture">
+							<BackgroundImage
+								className="featured-service-image"
+								fluid={service.frontmatter.featuredimage.childImageSharp.fluid}
+								backgroundColor={`#040e18`}
 							/>
-							<section className="section brand-green has-text-white">
+						</div>
+							<section className="section brand-green">
 								<h3 className="has-text-weight-bold is-size-5">{service.frontmatter.title}</h3>
 								<p>{service.excerpt}</p>
 							</section>

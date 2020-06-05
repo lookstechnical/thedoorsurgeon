@@ -40,7 +40,7 @@ export const IndexPageTemplate = ({ image, title, heading, subheading, mainpitch
 				</div>
 				<div>
 					<a href="mailto:07912 294 111" className="button is-large is-danger">
-						Emergency Call Now: 07912 294 111
+						Call Now: 07912 294 111
 					</a>
 				</div>
 			</section>
