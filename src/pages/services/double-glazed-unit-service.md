@@ -1,5 +1,5 @@
 ---
-order: 4
+order: 3
 templateKey: service-type
 title: Double glazed unit service
 featuredservice: true
