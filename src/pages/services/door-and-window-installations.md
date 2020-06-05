@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 4
 templateKey: service-type
 title: Door and window installations
 featuredservice: true
