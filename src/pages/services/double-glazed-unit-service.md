@@ -24,4 +24,8 @@ sections:
       description: info to come
       image: /img/decorative-glass.jpg
 ---
-none
+‘Are your double-glazed units misted or cracked?’
+
+Whether it’s misted, broken or energy saving upgrades your looking for, The Door Surgeon can provide high standard replacements at an affordable price.
+
+See more information…
