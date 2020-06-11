@@ -92,6 +92,8 @@ sections:
       heading: Patio and Bi Fold door repairs
       image: /img/windows-and-doors.jpg
 ---
-We can provide a wide range of window and door repairs in Bradford / Leeds and througout West Yorkshire. All repairs are done to the highest quality using only the best products/materials available.
+‘Are you having trouble locking your door?’
 
-No job is too small!
+The Door Surgeon offers a wide range of solutions to repairing your door rather than spending hundreds of pounds on a brand-new door.
+
+See more information…
