@@ -64,4 +64,8 @@ sections:
       heading: Improve window security
       image: /img/window-security.jpg
 ---
-.
+.‘Window handles broken? Window won’t open?’
+
+The Door Surgeon can easily repair UPVC and aluminon windows without the need of large replacement costs.
+
+See more information…
