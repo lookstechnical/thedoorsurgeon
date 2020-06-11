@@ -5,94 +5,96 @@ title: Door Repair Services
 featuredservice: true
 featuredimage: /img/door-repair-sevices.jpg
 category:
-  - repairs
+    - repairs
 sections:
-  - section:
-      description: >-
-        We can easily replace all your window hardware. If your window handle is
-        moving but your window is not opening, you are probably in need a new
-        handle or a new window locking mech.
+    - section:
+          description: >-
+              We can easily replace all your window hardware. If your window handle is
+              moving but your window is not opening, you are probably in need a new
+              handle or a new window locking mech.
 
 
-        When you close your window is there a gap between the sash and the frame? you probably need new hinges or new rubber seals.
+              When you close your window is there a gap between the sash and the frame? you probably need new hinges or new rubber seals.
 
 
-        If you are worried about young children falling out of the windows we can fit restrictors to the sash so the window will only open a small amount so children cannot fall out.
+              If you are worried about young children falling out of the windows we can fit restrictors to the sash so the window will only open a small amount so children cannot fall out.
 
 
-        We can also replace and fit -:
+              We can also replace and fit -:
 
 
-        * Handles
+              * Handles
 
-        * Hinges/friction stays
+              * Hinges/friction stays
 
-        * Bubble gaskets/rubber seals
+              * Bubble gaskets/rubber seals
 
-        * Restrictors
+              * Restrictors
 
-        * Sash jammers.
-      heading: Replacement door locking mechanism
-      image: /img/black-and-grey-keys-792034.jpg
-  - section:
-      description: |-
-        Door Repairs include-:
+              * Sash jammers.
+          heading: Replacement door locking mechanism
+          image: /img/black-and-grey-keys-792034.jpg
+    - section:
+          description: |-
+              Door Repairs include-:
 
-        * Replacement handles
-        * Letter plates
-        * Door knockers
-        * Door hinge pencil or flag
-        * Door panels
-        * Euro cylinders
-        * Multi-point locking mechanisms
-      heading: New Door handles
-      image: /img/new-door-handles.jpg
-  - section:
-      description: >-
-        We can replace all multi point locks including WINK HAUS, GU, AVOCET,
-        SOBINCO , MILA.
-
-
-        If you have a lock that is broken, or if you want a lock upgrading, i.e from an old style 4 roller lock to a 4 hook lock, then give us a call for a free no obligation quote.
+              * Replacement handles
+              * Letter plates
+              * Door knockers
+              * Door hinge pencil or flag
+              * Door panels
+              * Euro cylinders
+              * Multi-point locking mechanisms
+          heading: New Door handles
+          image: /img/new-door-handles.jpg
+    - section:
+          description: >-
+              We can replace all multi point locks including WINK HAUS, GU, AVOCET,
+              SOBINCO , MILA.
 
 
-        If other locksmiths have said the lock is discontinued then give us a call we specialise in finding locks and materials that others can not.
-      heading: Improve door security
-      image: /img/improve-door-security.jpg
-  - section:
-      description: >-
-        The door surgeon can professionally remove scratches and cigarette
-        burns.
+              If you have a lock that is broken, or if you want a lock upgrading, i.e from an old style 4 roller lock to a 4 hook lock, then give us a call for a free no obligation quote.
 
 
-        We can also repair holes and breaks to frames using our special Rex Lith UPVC filler kit and repair dents to frames, normally caused by thieves attempting to break in with screw drivers or crow bars.
+              If other locksmiths have said the lock is discontinued then give us a call we specialise in finding locks and materials that others can not.
+          heading: Improve door security
+          image: /img/improve-door-security.jpg
+    - section:
+          description: >-
+              The door surgeon can professionally remove scratches and cigarette
+              burns.
 
 
-        *Call now for a free quote*
-      heading: Replacement door hinges
-      image: /img/hinge.jpg
-  - section:
-      description: If your patio door has become stiff or hard to lock and slide we
-        can replace the wheels or the lock, if your door bumps or jumps as it
-        rolls the track probably needs replacing. We can replace the track the
-        door runs on to give your door a smooth action.
-      heading: replacement door panels
-      image: /img/replacement-door-panels.jpg
-  - section:
-      description: >-
-        We provide a 24 hour glass replacement service.\
-
-        Are your double glazed units misty/cloudy? if so, there is no need to get new windows. We can replace the double glazing units saving you money.
+              We can also repair holes and breaks to frames using our special Rex Lith UPVC filler kit and repair dents to frames, normally caused by thieves attempting to break in with screw drivers or crow bars.
 
 
-        We can replace units in UPVC Timber and Aluminium.
+              *Call now for a free quote*
+          heading: Replacement door hinges
+          image: /img/hinge.jpg
+    - section:
+          description:
+              If your patio door has become stiff or hard to lock and slide we
+              can replace the wheels or the lock, if your door bumps or jumps as it
+              rolls the track probably needs replacing. We can replace the track the
+              door runs on to give your door a smooth action.
+          heading: replacement door panels
+          image: /img/replacement-door-panels.jpg
+    - section:
+          description: >-
+              We provide a 24 hour glass replacement service.\
+
+              Are your double glazed units misty/cloudy? if so, there is no need to get new windows. We can replace the double glazing units saving you money.
 
 
-        If there is no fault with your units, but you just want to add a bit of class to your home we can replace your unit with leaded and coloured glass, you can even design the glass yourself.
-      heading: Patio and Bi Fold door repairs
-      image: /img/windows-and-doors.jpg
+              We can replace units in UPVC Timber and Aluminium.
+
+
+              If there is no fault with your units, but you just want to add a bit of class to your home we can replace your unit with leaded and coloured glass, you can even design the glass yourself.
+          heading: Patio and Bi Fold door repairs
+          image: /img/windows-and-doors.jpg
 ---
-‘Are you having trouble locking your door?’
+
+**Are you having trouble locking your door?**
 
 The Door Surgeon offers a wide range of solutions to repairing your door rather than spending hundreds of pounds on a brand-new door.
 
