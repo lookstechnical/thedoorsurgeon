@@ -5,93 +5,63 @@ title: Door Repair Services
 featuredservice: true
 featuredimage: /img/door-repair-sevices.jpg
 category:
-    - repairs
+  - repairs
 sections:
-    - section:
-          description: >-
-              We can easily replace all your window hardware. If your window handle is
-              moving but your window is not opening, you are probably in need a new
-              handle or a new window locking mech.
+  - section:
+      description: >-
+        At the Door Surgeon we can replace all multi-point locks. If you find
+        your handle is spinning and your door will not open it may because your
+        mechanism is broken – we can easily get your door open and replace your
+        mechanism at an honest and affordable price.
 
 
-              When you close your window is there a gap between the sash and the frame? you probably need new hinges or new rubber seals.
+        We also offer mechanism upgrades for example, if you have only a four-roller mechanism, we can upgrade this to a 3 hook 2 mushroom mechanism.
 
 
-              If you are worried about young children falling out of the windows we can fit restrictors to the sash so the window will only open a small amount so children cannot fall out.
+        If you have been told by other locksmiths or installers that your lock is discontinued give us a call.
+      heading: Replacement door locking mechanism
+      image: /img/black-and-grey-keys-792034.jpg
+  - section:
+      description: We easily replace your door handles these can be changed to any
+        colour, any sizes and any design, they can also be upgraded to the best
+        high security handles. We also replace patio and bifold door handles.
+      heading: New Door handles
+      image: /img/new-door-handles.jpg
+  - section:
+      description: Are your doors a weak point for burglars? Here at The Door Surgeon
+        we have many different security upgrades to suit you. The most common
+        way for burglars to enter your house is through snapping the door lock.
+        West Yorkshires Police stats show that over 27% of burglaries are from
+        lock snapping. This can easily be resolved by replacing your cylinders
+        to an anti snap 3-star lock and replacing your handles to the highest
+        security handle. We can also install door sash jammers and door chains
+        for extra security, please call for a free door security assessment.
+      heading: Improve door security
+      image: /img/improve-door-security.jpg
+  - section:
+      description: >-
+        Is you door catching or hard to close? You may have been told you need a
+        new door? This is probably not the case; you may just need new hinges at
+        a fraction of the cost.
 
 
-              We can also replace and fit -:
-
-
-              * Handles
-
-              * Hinges/friction stays
-
-              * Bubble gaskets/rubber seals
-
-              * Restrictors
-
-              * Sash jammers.
-          heading: Replacement door locking mechanism
-          image: /img/black-and-grey-keys-792034.jpg
-    - section:
-          description: |-
-              Door Repairs include-:
-
-              * Replacement handles
-              * Letter plates
-              * Door knockers
-              * Door hinge pencil or flag
-              * Door panels
-              * Euro cylinders
-              * Multi-point locking mechanisms
-          heading: New Door handles
-          image: /img/new-door-handles.jpg
-    - section:
-          description: >-
-              We can replace all multi point locks including WINK HAUS, GU, AVOCET,
-              SOBINCO , MILA.
-
-
-              If you have a lock that is broken, or if you want a lock upgrading, i.e from an old style 4 roller lock to a 4 hook lock, then give us a call for a free no obligation quote.
-
-
-              If other locksmiths have said the lock is discontinued then give us a call we specialise in finding locks and materials that others can not.
-          heading: Improve door security
-          image: /img/improve-door-security.jpg
-    - section:
-          description: >-
-              The door surgeon can professionally remove scratches and cigarette
-              burns.
-
-
-              We can also repair holes and breaks to frames using our special Rex Lith UPVC filler kit and repair dents to frames, normally caused by thieves attempting to break in with screw drivers or crow bars.
-
-
-              *Call now for a free quote*
-          heading: Replacement door hinges
-          image: /img/hinge.jpg
-    - section:
-          description:
-              If your patio door has become stiff or hard to lock and slide we
-              can replace the wheels or the lock, if your door bumps or jumps as it
-              rolls the track probably needs replacing. We can replace the track the
-              door runs on to give your door a smooth action.
-          heading: replacement door panels
-          image: /img/replacement-door-panels.jpg
-    - section:
-          description: >-
-              We provide a 24 hour glass replacement service.\
-
-              Are your double glazed units misty/cloudy? if so, there is no need to get new windows. We can replace the double glazing units saving you money.
-
-
-              We can replace units in UPVC Timber and Aluminium.
-
-
-              If there is no fault with your units, but you just want to add a bit of class to your home we can replace your unit with leaded and coloured glass, you can even design the glass yourself.
-          heading: Patio and Bi Fold door repairs
-          image: /img/windows-and-doors.jpg
+        If you have an old-style pencil hinge these can be very weak with very little adjustment. The Door Surgeon can easily replace and upgrade your pencil hinges to a more modern stronger flag hinge. Another common hinge replacement is on French doors as the can snap in high winds. The Door Surgeon can replace your hinges and install a restrictor to stop this from happening again.
+      heading: Replacement door hinges
+      image: /img/hinge.jpg
+  - section:
+      description: Do you have a damaged or discoloured door panel? The Door Surgeon
+        can easily replace or upgrade your panel with a new reinforced panel.
+        Also, if you fancy a change in the design of the door, no need to spend
+        thousands on a door just get The Door Surgeon to replace your panel.
+      heading: replacement door panels
+      image: /img/replacement-door-panels.jpg
+  - section:
+      description: If you’re having trouble with locking or sliding your patio door it
+        may be a case of replacing the wheel or the lock. We can also easily
+        replace the track if your door is bumping or jumping, this will give
+        your door a smooth-running action.
+      heading: Patio and Bi Fold door repairs
+      image: /img/windows-and-doors.jpg
 ---
 
 **Are you having trouble locking your door?**
