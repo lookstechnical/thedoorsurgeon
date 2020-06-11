@@ -22,4 +22,6 @@ sections:
       heading: Composite door installation
       image: /img/composit-door-installation.jpg
 ---
-The door surgeon pride ourselves on our fitting skills and we believe that there is no point having the best highly skilled fitters if you don't use the best products that's why we use A rated Halo Rusique profile windows and doors.Unlike a lot of larger window companies we will only fit the windows you want and will not try and sell you windows for your whole home.
+Here at The Door Surgeon we pride ourselves on our excellent fitting skills. Alongside our highly skilled fitters we use the best A rated window and door profiles.
+
+See more information…
