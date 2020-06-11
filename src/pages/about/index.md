@@ -6,14 +6,27 @@ sections:
   - section:
       heading: About us
       description: >-
-        Here at the Door Surgeon we pride ourselves on offering an honest and
-        reliable service. Providing door repairs, double glazed door repairs,
-        window repairs, door and window installations, security upgrades and 24
-        locksmith service in leeds, bradford, wakefield and throughout West
-        Yorkshire area.
+        ## Celebrating 10 years of excellent service
 
 
-        Because we are a small family run business we can keep our overheads low and pass the savings on to you. If you have been told that your windows or doors are beyond repair, get in touch. We can repair when other firms can not.
+        The Door Surgeon is a small family run business offering an honest and reliable service.
+
+
+        Providing a wide range of services throughout the West Yorkshire are:
+
+
+        * Door Repairs
+
+        * Window Repairs
+
+        * Double Glazed Unit Replacement
+
+        * Door and Window Installation
+
+        * Locksmith and Security
+
+
+        Get in touch for more information or to arrange a quote.
       image: /img/3e7df6b3-0fbb-4e05-b498-068334b3f6b2.jpg
 ---
 ### Shade-grown coffee
