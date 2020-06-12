@@ -287,11 +287,14 @@ img
   flex-wrap: wrap;
 
 .services .list-service
-  flex: 1;
+  flex: 1 1;
+  margin: 0px 16px;
+  height: 100%;
   min-width: calc(25% - 32px);
   max-width: calc(25% - 32px);
-  height: 100%;
-  margin: 16px;
+  padding-bottom: 24px;
+
+  overflow: hidden;
 
   .picture
     overflow: hidden;
@@ -302,12 +305,12 @@ img
     line-height: 1.5rem;
 
   section 
-    height: 250px;
+    height: 320px;
     color: white;
 
 .services .list-service .section
-  min-height: 300px;
-  max-height: 300px;
+  min-height: 320px;
+  max-height: 320px;
 
 .list-service:hover 
   box-shadow: -2px 7px 8px -1px rgba(138,138,138,0.62);
@@ -352,7 +355,10 @@ img
     padding: 80px 0px;
   .service-section:nth-of-type(2n)
       flex-direction: column;
-
+  .services
+    flex-direction: column;
+  .services .list-service
+    margin-bottom: 24px;
 
 
 

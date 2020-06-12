@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 5
 templateKey: service-type
 title: 24 Hour Locksmith
 featuredservice: false
