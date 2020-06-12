@@ -37,13 +37,9 @@ The Door Surgeon is a small family run business offering an honest and reliable 
 Providing a wide range of services throughout the West Yorkshire are:
 
 * Door Repairs
-
 * Window Repairs
-
 * Double Glazed Unit Replacement
-
 * Door and Window Installation
-
 * Locksmith and Security
 
 Get in touch for more information or to arrange a quote.
