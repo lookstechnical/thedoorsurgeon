@@ -32,7 +32,7 @@ export const IndexPageTemplate = ({
                     Door and window specialists
                 </h1>
                 <h2 className="is-size-3 has-text-weight-bold">
-                    Leeds and Bradford
+                    West Yorkshire
                 </h2>
             </div>
         </section>
