@@ -33,6 +33,8 @@
     "react-dom": "^16.8.4",
     "react-helmet": "^6.0.0",
     "react-intersection-observer": "^8.26.2",
+    "react-slick": "^0.26.1",
+    "slick-carousel": "^1.8.1",
     "uuid": "^7.0.0"
   },
   "keywords": [

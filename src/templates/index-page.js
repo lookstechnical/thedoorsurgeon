@@ -5,6 +5,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/Layout"
 import door from "../img/door.jpg"
 import FeaturedServices from "../components/FeaturedServices"
+import TestimonialSlider from "../components/TestimonialSlider"
 
 export const IndexPageTemplate = ({
     image,
@@ -77,6 +78,9 @@ export const IndexPageTemplate = ({
                 <h3 className="is-size-2 has-text-weight-bold">
                     View our customers feedback
                 </h3>
+                <div className="mt-5">
+                    <TestimonialSlider />
+                </div>
             </div>
         </section>
         <section className="section dark">
