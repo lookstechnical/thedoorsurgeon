@@ -1,6 +1,6 @@
 ---
 title: Home
-description: Home
+description: Home content
 content:
   - heading: Door & Window Specialists
     color: "#e3bbbb"
